@@ -6,13 +6,13 @@ Planning, work tracking, design, and discussion for Robograph Project
 
 A collection of repositories with the goal of providing a declarative specification framework for robotics sotfware projects.
 
-Focused primarily on
+Focused primarily on, but not limited to
 1. ROS 2 applications
 2. running on a single computer host
 
-This is an idea in active evolution.
+This repository and README tracks new development and notes on preexisting tools.
 
-This repository and README tracks new development and notes on preexisting tools to meet the following goals.
+See [the backlog](https://github.com/orgs/robograph-project/projects/1) for an overview of work in progress.
 
 ## Motivation
 
