@@ -45,13 +45,19 @@ This could give us the following benefits:
 - Current state of the art: https://github.com/ubuntu-robotics/nodl
 - Adoption/Usage: Low/None
 
-### Graph Specification
+### Graph Specification: Launch
 
-Currently the ROS 2 launch system is the way that this is handled.
+ROS 2 graphs are created dynamically by one or more `launch` files, and user or dynamically-created Nodes.
 
 While the launchfiles are theoretically "somewhat declarative" - given that the Python launch API is by far the most used and the amount of flexibilty that affords makes launchfiles hard/impossible to analyze at build time.
 
 ### Graph Configuration
 
-The ability to have glabal-default parameterss, with group- & individual-level overrides to generate a tree of configuration that renders into one global parameter spec for a concrete application, that could be analyzed ahead of time for type consistency and general debugging introspection.
+How does one think about configuration an entire application (graph)?
+
+There is not a good answer now.
+
+Consider supporting:
+- Default parameters specification
+- Layers of overrides with clear precedence, for either sites, vehicle types, individual computers, etc. This renders into a single inspectable configuration artifact for a system to start with.
 
