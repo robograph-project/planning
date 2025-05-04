@@ -1,8 +1,8 @@
-# Robograph Project Docs
+# Robograph Project Planning
 
-Planning, design, documentation, and discussion for Robograph Project
+Planning, work tracking, design, and discussion for Robograph Project
 
-## About
+## About Robograph Project
 
 A collection of repositories with the goal of providing a declarative specification framework for robotics sotfware projects.
 
